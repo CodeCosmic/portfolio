@@ -1,0 +1,11 @@
+.darkModeSwitch{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+body.dark-mode {
+    background-color: #070707;
+    color: #fff;
+}
+

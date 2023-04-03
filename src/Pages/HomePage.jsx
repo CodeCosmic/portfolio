@@ -1,10 +1,9 @@
-import DarkToggle from "../Components/DarkModeToggle/DarkModeToggle";
-
 const HomePage = () => {
+    return(
     <div>
-        <DarkToggle/>
-        Hello
+        <span>hello</span>
     </div>
+    )
 }
 
 export default HomePage;

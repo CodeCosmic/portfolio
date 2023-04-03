@@ -1,16 +1,19 @@
 import React, { useState } from 'react';
 import Switch from 'react-switch';
+import './darkModeToggle.css'
 
 const DarkToggle = () => {
     const [checked, setChecked] = useState(false)
-    const [background, setBackground] = useState('light')
 
     const checkHandler = (checked) => {
         setChecked(checked)
-        setBackground(checked ? 'dark' : 'light')
+        document.body.classList.toggle('dark-mode')
+       // const headerSpan = document.getElementById('headerSpan')
+       // headerSpan.innerText = checked ? 'Dark mode is on' : 'Dark mode is off'
     }
 
     return(
+        <div className='darkModeSwitch'>
         <Switch
             onChange={checkHandler}
             checked={checked}
@@ -19,6 +22,7 @@ const DarkToggle = () => {
             onColor='#24292e'
             offColor='#bbb'
         />
+        </div>
     )
 }
 
