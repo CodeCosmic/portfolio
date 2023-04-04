@@ -1,0 +1,55 @@
+.homeLabelR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    width: 50%;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    border: 2px solid #ec1c24;
+    padding: 1rem;
+}
+
+.homeLabelL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    width: 50%;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    border: 2px solid #ec1c24;
+    padding: 1rem;
+}
+
+.aboutPR{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-left: auto;
+    font-family: 'Orbitron', sans-serif;
+    border: 2px solid #ec1c24;
+    margin-top: 0;
+    padding: 1rem;
+}
+
+.aboutPL{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    margin-right: auto;
+    font-family: 'Orbitron', sans-serif;
+    border: 2px solid #ec1c24;
+    margin-top: 0;
+    padding: 1rem;
+}
+
+.containerL{
+    margin-top: 50px;
+}
+
+.containerR{
+    margin-top: 50px;
+}

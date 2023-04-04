@@ -5,7 +5,10 @@
 }
 
 body.dark-mode {
-    background-color: #070707;
+    background-color: #0d161d;
     color: #fff;
 }
 
+body{
+    background-color: #dfdfdf;
+}
