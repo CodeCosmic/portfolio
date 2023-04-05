@@ -6,7 +6,6 @@
     width: 50%;
     font-size: 36px;
     font-weight: bold;
-    font-family: 'Orbitron', sans-serif;
     border: 2px solid #ec1c24;
     padding: 1rem;
 }
@@ -19,7 +18,6 @@
     width: 50%;
     font-size: 36px;
     font-weight: bold;
-    font-family: 'Orbitron', sans-serif;
     border: 2px solid #ec1c24;
     padding: 1rem;
 }
@@ -29,10 +27,21 @@
     justify-content: flex-end;
     width: 50%;
     margin-left: auto;
-    font-family: 'Orbitron', sans-serif;
     border: 2px solid #ec1c24;
     margin-top: 0;
     padding: 1rem;
+}
+
+.homeLabelR:hover{
+    background-color: #ec1c24;
+    color: #0d161d;
+    cursor: pointer;
+}
+
+.homeLabelL:hover{
+    background-color: #ec1c24;
+    color: #0d161d;
+    cursor: pointer;
 }
 
 .aboutPL{
@@ -40,7 +49,6 @@
     justify-content: flex-start;
     width: 50%;
     margin-right: auto;
-    font-family: 'Orbitron', sans-serif;
     border: 2px solid #ec1c24;
     margin-top: 0;
     padding: 1rem;
@@ -52,4 +60,8 @@
 
 .containerR{
     margin-top: 50px;
+}
+
+.box{
+    display: none;
 }

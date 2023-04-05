@@ -11,4 +11,23 @@ body.dark-mode {
 
 body{
     background-color: #dfdfdf;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.darkSpan{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    border: 2px solid #ec1c24;
+    padding: 4px;
+}
+
+.lightSpan{
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    border: 2px solid #ec1c24;
+    padding: 4px;
 }

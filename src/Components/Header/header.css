@@ -3,8 +3,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: sticky;
-    font-family: 'Orbitron', sans-serif;
     background: #ec1c24;
     border-top: 2px solid #000;
     border-bottom: 2px solid #000;
