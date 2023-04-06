@@ -8,7 +8,7 @@ function App() {
   return (
         <div className='App'>
             <DarkToggle/>
-            <Header style={{position: 'sticky'}}/>
+            <Header/>
             <Routes>
                 <Route path='/' element={<HomePage/>}/>
             </Routes>

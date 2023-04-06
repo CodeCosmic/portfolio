@@ -54,14 +54,20 @@
     padding: 1rem;
 }
 
-.containerL{
-    margin-top: 50px;
-}
-
-.containerR{
+.container{
     margin-top: 50px;
 }
 
 .box{
     display: none;
+}
+
+.blink{
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
 }
