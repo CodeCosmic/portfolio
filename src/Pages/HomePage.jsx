@@ -18,23 +18,35 @@ const HomePage = () => {
     return(
     <div>
         <div className='container'>
-            <span className="homeLabelR" onClick={() => handleClick('about')} >{isVisible.about ? ''  : <span className='blink'>&gt;</span>}About</span>
+        {/*    <button className='homeLabelR' onClick={() => handleClick('about')} type="">{isVisible.about ? ''  : <p className='blink'>&gt;</p>}About</button>*/}
+        <span className="homeLabelR" onClick={() => handleClick('about')} >{isVisible.about ? ''  : <span className='blink'>&gt;</span>}About</span>
             <p className={`aboutPR ${isVisible.about ? 'box' : ''}`} id='aboutParagraph' >
-                Hello! My name is Roger. I'm familiar with JavaScript, HTML and
-                CSS. I've recently graduated from a full stack bootcamp that focused
-                on using the React library and the MERN stack.
+                Hello! My name is Roger. I hold a bachelors degree in Finance and worked as a
+                Data Analyst. While working as a Data Analyst I found my passion in coding and
+                decided to dive into coding. I completed a full stack bootcam from NuCamp in March
+                of 2023. I have about 8 months of experience in <span className='highlight'>full stack</span> development
+                with a focus on JavaScript, HTML and CSS and MERN stack technologies. I'm passionate
+                about creating webpages and I strive to make a positive impact in the world.
             </p>
         </div>
         <div className='container'>
-            <span className="homeLabelR" onClick={() => handleClick('education')}>{isVisible.education ? ''  : <span className='blink'>&gt;</span>}Education</span>
+            <span className="homeLabelR" onClick={() => handleClick('education')}>{isVisible.education ? ''  : <span className='blink'>&gt;</span>}Skills</span>
             <p className={`aboutPR ${isVisible.education ? 'box' : ''}`} id='educationParagraph'>
-                Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
+                <ul>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>React</li>
+                    <li>MongoDB</li>
+                    <li>Express</li>
+                    <li>Next.js</li>
+                </ul>
             </p>
         </div>
         <div className='container'>
-            <span className='homeLabelR' onClick={() => handleClick('another')}>{isVisible.another ? ''  : <span className='blink'>&gt;</span>}Hello</span>
+            <span className='homeLabelR' onClick={() => handleClick('another')}>{isVisible.another ? ''  : <span className='blink'>&gt;</span>}Projects</span>
             <p className={`aboutPR ${isVisible.another ? 'box' : ''}`} id='anotherParagraph'>
-                Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
+                Lorem ipsum dolor sit amet,
             </p>
         </div>
     </div>

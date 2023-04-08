@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ec1c24;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.footerSpan{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+a.btnFoot{
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ec1c24;
+    color: black;
+    border: 2px solid #000;
+    font-family: 'Orbitron', sans-serif;
+    margin: 5px;
+    font-weight: bold;
+}
+
+a.btn:hover{
+    background-color: black;
+    color: white;
+}

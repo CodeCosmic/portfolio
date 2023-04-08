@@ -8,6 +8,7 @@
     font-weight: bold;
     border: 2px solid #ec1c24;
     padding: 1rem;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .homeLabelL{
@@ -23,7 +24,6 @@
 }
 
 .aboutPR{
-    display: flex;
     justify-content: flex-end;
     width: 50%;
     margin-left: auto;
@@ -70,4 +70,8 @@
     50% {
         opacity: 0;
     }
+}
+
+.highlight{
+    color: red;
 }
