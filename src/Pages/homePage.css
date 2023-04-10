@@ -1,4 +1,4 @@
-.homeLabelR{
+.infoLabel{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,19 +11,7 @@
     font-family: 'Orbitron', sans-serif;
 }
 
-.homeLabelL{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: auto;
-    width: 50%;
-    font-size: 36px;
-    font-weight: bold;
-    border: 2px solid #ec1c24;
-    padding: 1rem;
-}
-
-.aboutPR{
+.infoContent{
     justify-content: flex-end;
     width: 50%;
     margin-left: auto;
@@ -32,33 +20,17 @@
     padding: 1rem;
 }
 
-.homeLabelR:hover{
+.infoLabel:hover{
     background-color: #ec1c24;
     color: #0d161d;
     cursor: pointer;
-}
-
-.homeLabelL:hover{
-    background-color: #ec1c24;
-    color: #0d161d;
-    cursor: pointer;
-}
-
-.aboutPL{
-    display: flex;
-    justify-content: flex-start;
-    width: 50%;
-    margin-right: auto;
-    border: 2px solid #ec1c24;
-    margin-top: 0;
-    padding: 1rem;
 }
 
 .container{
     margin-top: 50px;
 }
 
-.box{
+.hide{
     display: none;
 }
 
