@@ -1,4 +1,5 @@
 import './homePage.css'
+import hangman from '../Assets/Images/hangman.PNG'
 import { useState } from 'react'
 
 const HomePage = () => {
@@ -16,9 +17,8 @@ const HomePage = () => {
     }
 
     return(
-    <div>
+    <div className='bigContainer'>
         <div className='container'>
-        {/*    <button className='infoLabel' onClick={() => handleClick('about')} type="">{isVisible.about ? ''  : <p className='blink'>&gt;</p>}About</button>*/}
         <span className="infoLabel" onClick={() => handleClick('about')} >{isVisible.about ? ''  : <span className='blink'>&gt;</span>}About</span>
             <p className={`infoContent ${isVisible.about ? 'hide' : ''}`} id='aboutParagraph' >
                 Hello! My name is Roger. I hold a bachelors degree in Finance and worked as a
@@ -40,14 +40,22 @@ const HomePage = () => {
                     <li>MongoDB</li>
                     <li>Express</li>
                     <li>Next.js</li>
+                    <li>NodeJs</li>
                 </ul>
             </div>
         </div>
         <div className='container'>
             <span className='infoLabel' onClick={() => handleClick('another')}>{isVisible.another ? ''  : <span className='blink'>&gt;</span>}Projects</span>
-            <p className={`infoContent ${isVisible.another ? 'hide' : ''}`} id='anotherParagraph'>
-                Lorem ipsum dolor sit amet,
-            </p>
+            <div className={`infoContent ${isVisible.another ? 'hide' : ''}`} id='anotherParagraph'>
+                <div className='portImgContainer' >
+                <h2>Hangman</h2>
+                <img className='portImg' src={hangman} alt=""/>
+                </div>
+                <div className="projectLinks">
+                    <a className='btnProject' target='_blank' rel='noopener noreferrer' href='https://main--melodious-axolotl-386322.netlify.app/'>Site</a>
+                    <a className='btnProject' target='_blank' rel='noopener noreferrer' href='https://github.com/CodeCosmic/hangman'>Code</a>
+                </div>
+            </div>
         </div>
     </div>
     )

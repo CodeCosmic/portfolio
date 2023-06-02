@@ -1,12 +1,12 @@
 import './header.css'
-import spike from '../../Assets/Images/spike-spiegel.jpg'
+import face from '../../Assets/Images/face.jpg'
 
 const Header = () => {
     return(
         <>
             <div className='header'>
                 <span className="headerSpan">Roger Martinez</span>
-                <img className='headerImg' alt='' src={spike}/>
+                <img className='headerImg' alt='' src={face}/>
             </div>
             <div className='links'>
                 <a className='btn' target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/roger-martinez-3b9254139/'>Linkedin</a>
