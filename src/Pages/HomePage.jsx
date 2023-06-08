@@ -52,7 +52,7 @@ const HomePage = () => {
                 <img className='portImg' src={hangman} alt=""/>
                 </div>
                 <div className="projectLinks">
-                    <a className='btnProject' target='_blank' rel='noopener noreferrer' href='https://main--melodious-axolotl-386322.netlify.app/'>Site</a>
+                    <a className='btnProject' target='_blank' rel='noopener noreferrer' href='https://hangman-coral-one.vercel.app/'>Site</a>
                     <a className='btnProject' target='_blank' rel='noopener noreferrer' href='https://github.com/CodeCosmic/hangman'>Code</a>
                 </div>
             </div>
